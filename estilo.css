@@ -1,0 +1,110 @@
+header{
+    border: 1px solid green;
+}
+
+main{
+    clear: both;
+}
+
+.equipo{
+    border: 1px solid red;
+    margin: 5px;
+}
+
+.equipo-estadio{
+    color: #673ab7;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+header {
+    background-color: #673ab7;
+    padding: 30px;
+    position: relative;
+  }
+
+img#logo-liga {
+    position: absolute;
+    left: 10px;
+    height: 100px;
+    bottom: 10px;
+}
+
+h1#nombre-liga, h2#jornada-actual {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+  
+
+  .equipo {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .fundacion {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #673ab7;
+    font-weight: bold;
+  }
+  
+  .equipo-nombre {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+  
+  .equipo-imagen {
+    height: 100px;
+    left: 30%;
+    position: relative;
+  }
+  
+  .equipo-estadio {
+    padding: 10px;
+    border-top: 2px solid #673ab7;
+    border-bottom: 2px solid #673ab7;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .equipo-competiciones {
+    align-items: center;
+  }
+  .equipo-competiciones img {
+    height: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .equipo-competiciones p {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .equipo-boton {
+    background-color: #673ab7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    left: 33%;
+    margin-top: 10px;
+  }
+  
+  .boton-equipo:hover {
+    background-color: #5a2ea0;
+  }
+  

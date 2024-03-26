@@ -1,0 +1,58 @@
+header{
+    border: 1px solid green;
+}
+
+main{
+    clear: both;
+}
+
+.equipo-estadio{
+    color: #673ab7;
+}
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  h1#equipo {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #673ab7;
+    font-weight: bold;
+  }
+  
+  p#entrenador {
+    color: #673ab7;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+
+  img#equipo-imagen {
+    height: 200px;
+    left: 40%;
+    position: relative;
+  }
+  
+  
+  table#jugadores {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-collapse: collapse;
+  }
+
+  tbody {
+    background-color: #673ab7;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    color: white;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
